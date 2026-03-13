@@ -1,0 +1,49 @@
+:root {
+  --deep-purple: #654F73;
+  --gold: #F2B33D;
+  --orange: #F2911B;
+  --burnt: #BF4904;
+  --maroon: #8C1C03;
+  --bg-light: #FDFBF7;
+  --white: #ffffff;
+  --text-dark: #2B1E37;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+/* Base structural layout for Sticky Footer */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer,
+#quote {
+  flex-shrink: 0;
+  font-size: 1.5rem;
+}
+
+.error-message {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-content: center;
+  color: var(--burnt);
+  font-size: 2rem;
+}

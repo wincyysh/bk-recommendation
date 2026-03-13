@@ -1,0 +1,154 @@
+/* =========================================
+   HOME PAGE - HIGH CONTRAST THEME
+   ========================================= */
+
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--bg-light);
+}
+
+/* Preface Section */
+#preface {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#preface p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+/* Sophisticated Divider */
+.penguin-divider {
+    border: 0;
+    height: 2px;
+    /* Updated to use your brand's deep purple for consistency */
+    background-image: linear-gradient(to right, 
+        transparent, 
+        var(--deep-purple), 
+        transparent
+    );
+    margin: 2rem auto;
+    width: 60%;
+}
+
+/* Featured Books Container */
+#featured-books {
+    padding: 2rem 0;
+}
+
+.book-grid {
+    display: flex;
+    flex-direction: column; /* Vertical list of horizontal cards */
+    gap: 4rem;
+}
+
+/* The Horizontal Book Card */
+.book-card {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateX(10px); /* Subtle slide-right effect */
+    box-shadow: var(--shadow-md);
+}
+
+.card-img-container {
+    flex: 0 0 280px; 
+    aspect-ratio: 2 / 3;
+    background-color: var(--bg-light); 
+    overflow: hidden;
+    border: 1px solid rgba(101, 79, 115, 0.1); 
+    box-shadow: var(--shadow-sm);
+    border-radius: 8px;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.book-card:hover .card-img-container img {
+    transform: scale(1.05);
+}
+
+/* Intro Text - Right Side */
+.intro {
+    flex: 1; /* Fills remaining space */
+    text-align: left; 
+}
+
+.intro h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: var(--deep-purple);
+    margin: 0 0 0.5rem 0;
+}
+
+.intro h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: var(--maroon);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    opacity: 0.9;
+}
+
+/* Loading State */
+.loading-shimmer {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: var(--orange);
+    padding: 5rem;
+}
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+   ========================================= */
+
+@media (max-width: 768px) {
+    .book-card {
+        flex-direction: column; /* Stack vertically on mobile */
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .card-img-container {
+        flex: 0 0 auto;
+        width: 200px; /* Smaller image on mobile */
+        margin-bottom: 1.5rem;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .intro h3 {
+        font-size: 1.6rem;
+    }
+}
