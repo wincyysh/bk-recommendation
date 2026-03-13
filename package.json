@@ -2,7 +2,7 @@
   "name": "booklist",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://wincyysh.github.io/booklist/",
+  "homepage": "https://wincyysh.github.io/bk-recommendation/",
   "type": "module",
   "scripts": {
     "dev": "vite",

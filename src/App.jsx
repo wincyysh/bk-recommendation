@@ -38,11 +38,11 @@ const App = () => {
     };
 
     return (
-        <Router basename="booklist">
+        <Router basename="bk-recommendation">
             <AnalyticsTracker />
             <div id="begin">
                 <div id='title-block'>
-                    <h1>The Booklist, Timeless Modern Inspiration</h1>
+                    <h1>The bk-recommendation, Timeless Modern Inspiration</h1>
                 </div>
                 <button className='menu-button' onClick={toggleMenu} aria-label='Navigation Menu'>
                     <span className="material-symbols-outlined">
@@ -78,7 +78,7 @@ const App = () => {
             <section id="quote">
                 <p>“A reader lives a thousand lives before he dies. The man who never reads lives only one.”</p>
             </section>
-            <footer>© 2026 The Booklist — Designed with love for book readers</footer>
+            <footer>© 2026 The bk-recommendation — Designed with love for book readers</footer>
         </Router>
     );
 };
