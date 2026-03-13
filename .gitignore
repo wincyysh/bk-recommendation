@@ -1,0 +1,37 @@
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Testing coverage
+coverage/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Cache files
+.cache/
+.parcel-cache/
+eslintcache
+
+# Temporary files
+*.tmp
+*.swp
+
+# Misc
+*.bak
+*.orig
