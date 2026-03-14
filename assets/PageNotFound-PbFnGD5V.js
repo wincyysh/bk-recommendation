@@ -1,0 +1,1 @@
+import{j as e}from"./index-Bid-m2Ny.js";const s=()=>e.jsxs("div",{className:"errors",children:[e.jsx("h1",{children:"404"}),e.jsx("p",{children:"Page Not Found"}),e.jsx(Link,{to:"/",children:"Home"})]});export{s as default};
