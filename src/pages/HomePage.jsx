@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { limitWords } from './../services/bookService';
 import './HomePage.css';
-import holder from './../../assets/book.svg';
+import holder from '../assets/book.svg';
 
 const HomePage = () => {
     const [featuredBooks, setFeaturedBooks] = useState([]);
