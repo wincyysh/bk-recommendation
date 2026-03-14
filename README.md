@@ -1,6 +1,7 @@
 # The Booklist
 
-## [Check out my reading booklist](https://wincyysh.github.io/bk-recommendation/).
+## Check out my website!
+## [wincyysh.github.io/bk-recommendation/](https://wincyysh.github.io/bk-recommendation/).
 
 Explore a curated collection of stories that shaped generations — from literary classics to modern masterpieces that continue to inspire readers around the world.
 
