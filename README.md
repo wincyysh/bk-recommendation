@@ -14,14 +14,14 @@ A React-based book recommendation and search engine. This app allows users to ex
 - **API:** Google Books API
 
 ## Performance Optimization: 
-- **Implemented a Local Storage caching system and sequential API fetching to stay within Google Books API limits and ensure near-instant load times.
+- Implemented a Local Storage caching system and sequential API fetching to stay within Google Books API limits and ensure near-instant load times.
 
 ## Real-time Interaction: 
-- **Integrated Firebase Realtime Database to allow users to add their own recommendations and vote on their favorite reads.
+- Integrated Firebase Realtime Database to allow users to add their own recommendations and vote on their favorite reads.
 
 ## Responsive Design: 
 
-- **Built a custom, high-contrast UI (Deep Purple & Gold) that adapts from a horizontal desktop layout to a mobile-friendly stack.
+- Built a custom, high-contrast UI (Deep Purple & Gold) that adapts from a horizontal desktop layout to a mobile-friendly stack.
 
 ## Clean Architecture: 
-- **Utilized React (Vite) with lazy loading for optimized bundle sizes and smooth navigation.
+- Utilized React (Vite) with lazy loading for optimized bundle sizes and smooth navigation.
