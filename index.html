@@ -20,7 +20,7 @@
 					return s.replace(/~and~/g, '&')
 				}).filter(function (s) {
 					return s.slice(0, 2) === 'p='
-				})[0].slice(2);
+				})[0].slice(2).replace(/^\//, '');
 				window.history.replaceState(null, null,
 					l.pathname + decoded + l.hash
 				);
