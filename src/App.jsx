@@ -42,7 +42,7 @@ const App = () => {
             <AnalyticsTracker />
             <div id="begin">
                 <div id='title-block'>
-                    <h1>The bk-recommendation, Timeless Modern Inspiration</h1>
+                    <h1>Timeless Modern Inspiration</h1>
                 </div>
                 <button className='menu-button' onClick={toggleMenu} aria-label='Navigation Menu'>
                     <span className="material-symbols-outlined">
